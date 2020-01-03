@@ -1,3 +1,5 @@
+<?php
+
 namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
@@ -115,7 +117,6 @@ class Affiliate
         return $this;
     }
 
-    /**
     /**
      * @param string|null $token
      *
